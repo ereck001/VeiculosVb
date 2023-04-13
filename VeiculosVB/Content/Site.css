@@ -1,0 +1,69 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align:center;
+    text-decoration:none;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {   
+}
+.col-form-label {
+    text-align: end;
+    min-width: 136px;
+}
+.input-dados-carro{
+    min-width:300px;
+}
+.row {
+    text-align:center;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom:2px;
+}
+.comfirm {
+    margin-top: 30px;
+}
+#fundo-imagem{
+    /*margin: -50% 0 0 -50%;*/
+    height:300%;
+    width:100%;
+    position:absolute;
+    z-index:2;
+    background-color: rgba(0,0,0,0.7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#fundo-imagem figure {
+    
+    height:100%;
+    width: 100%;    
+    padding: 30px;
+}
+#fundo-imagem figure img {
+    margin-top:60px;
+    height: 500px;    
+    border-radius: 0.7em;        
+}
+.img-veiculo {
+    margin: 60px 0 30px 0;
+    height: 500px;
+    border-radius: 0.7em;
+}
